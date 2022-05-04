@@ -1,7 +1,7 @@
 # Portfolio MVP (alpha)
 
 ## Un projet avec pour but de validé les acquis :
-* Design de maquette d'un site web
+* Design de maquette d'un site web (disponble [ici](https://www.figma.com/file/tsbEJx88DNwPshkdQfXTol/portfolio-afpa?node-id=8%3A178))
 * Intégration HTML CSS qui respecte bien le design
 * Ajouter des animations CSS pour les interactions
 * Interagir avec le dom avec le Javascript
