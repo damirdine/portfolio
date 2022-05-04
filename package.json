@@ -1,0 +1,12 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "damirdine portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./assets/sass/main.scss:./assets/style.css"
+  },
+  "git repository": "",
+  "author": "damirdine",
+  "license": "ISC"
+}
