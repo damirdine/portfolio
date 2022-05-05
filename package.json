@@ -4,9 +4,11 @@
   "description": "damirdine portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./assets/sass/main.scss:./assets/style.css"
+    "sass": "sass --watch ./assets/sass/main.scss:./assets/css/style.css",
+    "prefix" : "postcss ./assets/css/style.css --use autoprefixer -d ./assets/css/prefixed/"
   },
-  "git repository": "",
+  "git repository": "https://github.com/damirdine/portfolio",
   "author": "damirdine",
-  "license": "ISC"
-}
+  "license": "ISC",
+  "browserslist": "last 5 versions"
+} 
