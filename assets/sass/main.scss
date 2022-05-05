@@ -1,6 +1,8 @@
 @import "base/reset";
+@import "base/typography";
 @import "variables/colors";
 @import "layout/header";
+@import "layout/about";
 @import "components/nav_link";
 
 body{background-color: $background-neutral;}body{background-color: $background-neutral;}

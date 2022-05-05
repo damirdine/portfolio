@@ -3,7 +3,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin : 16px;
+    padding : 16px;
     gap: 15px;
     .header{
         display: flex;
@@ -11,6 +11,9 @@ header{
         justify-content: space-between;
         &__logo{
             width: 49px;height: 28px; // taille d'origine
+        }
+        &__toggle-light{
+            height: 36px;
         }
     }
     nav{
@@ -25,7 +28,7 @@ header{
 
 @media screen and (min-width:768px) {
     header{
-        width: 95%;
+        width: 100%;
         flex-direction: row;
 
         .header{
