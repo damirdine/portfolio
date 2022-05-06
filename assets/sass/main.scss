@@ -1,8 +1,18 @@
-@import "base/reset";
-@import "base/typography";
-@import "variables/colors";
-@import "layout/header";
-@import "layout/about";
-@import "components/nav_link";
+//variables
+@import "./variables/colors";
+@import "./variables/unit";
 
-body{background-color: $background-neutral;}body{background-color: $background-neutral;}
+// bases
+@import "./bases/reset";
+@import "./bases/typography";
+@import "./bases/body";
+
+//layouts
+@import "./layouts/header";
+@import "./layouts/about";
+@import "./layouts/work";
+
+// components
+@import "./components/nav_link";
+@import "./components/button";
+@import "./components/card";

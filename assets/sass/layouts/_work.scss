@@ -1,0 +1,15 @@
+#works{
+    margin: 25px $marginM;
+    a{
+        display:block;
+        text-decoration: underline;
+        text-align: end;
+    }
+}
+
+.card-container{
+    margin: $marginM 0;
+    display: flex;
+    overflow-x: scroll;
+    gap: $marginM;
+}

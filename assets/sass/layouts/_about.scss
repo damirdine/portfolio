@@ -1,0 +1,34 @@
+
+#about{
+    margin: $marginM;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+details{
+    summary{
+        cursor: pointer;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    p{
+        margin: $marginM;
+    }
+    hr{
+        height: 1px;
+        width: 100%;
+        background-color: black;
+    }
+}
+// Desktop
+@media screen and (min-width:768px) {
+    #about{
+        margin: 25px $marginL;
+    }
+}
+// Large desktop
+@media screen and (min-width:1440px) {
+    #about{
+        margin: 25px $marginXL;
+    }
+}

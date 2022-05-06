@@ -1,0 +1,10 @@
+.card{
+    min-width: 276px;
+    width: 276px;
+    padding: $marginM;
+    background-color: aquamarine;
+    border-radius: 10px;
+    &__img{
+        width: 100%;
+    }
+}
