@@ -1,0 +1,10 @@
+@mixin marginM {
+    margin: 25px $marginM;
+}
+@mixin marginL {
+    margin: 25px $marginL;
+}
+@mixin marginXL {
+    margin: 25px $marginXL;
+}
+

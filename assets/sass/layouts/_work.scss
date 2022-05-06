@@ -1,5 +1,5 @@
 #works{
-    margin: 25px $marginM;
+    @include marginM;
     a{
         display:block;
         text-decoration: underline;
@@ -12,4 +12,14 @@
     display: flex;
     overflow-x: scroll;
     gap: $marginM;
+}
+@media screen and (min-width:$lBreakpoint) {
+    #works{
+        @include marginL
+    }
+}
+@media screen and (min-width:$xlBreakpoint) {
+    #works{
+        @include marginXL
+    }
 }

@@ -2,6 +2,9 @@
 @import "./variables/colors";
 @import "./variables/unit";
 
+//utils
+@import "./utils/mixins";
+
 // bases
 @import "./bases/reset";
 @import "./bases/typography";
