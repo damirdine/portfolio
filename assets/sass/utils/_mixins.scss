@@ -8,3 +8,19 @@
     margin: 25px $marginXL;
 }
 
+
+@mixin marginAll($components) {
+
+    @media screen and (min-width:$lBreakpoint) {
+        components{
+            @include marginL;
+        }
+    }
+    // Large desktop
+    @media screen and (min-width:$xlBreakpoint) {
+        components{
+            @include marginXL;
+        }
+    }
+    
+}

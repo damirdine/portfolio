@@ -1,0 +1,30 @@
+#contact{
+    @include marginM;
+    display : grid;
+    gap: 25px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    .contact__links{
+        display: grid;
+        gap: 5px;
+    }
+    .contact__resume{
+        display: grid;
+        gap: 5px;
+    }
+}
+
+
+@media screen and (min-width:$lBreakpoint) {
+    #contact{
+        @include marginL;
+    }
+}
+// Large desktop
+@media screen and (min-width:$xlBreakpoint) {
+    #contact{
+        @include marginXL;
+    }
+}
