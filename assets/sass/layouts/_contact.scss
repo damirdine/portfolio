@@ -5,6 +5,7 @@
 }
 .contact-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     .contact__links{
         display: grid;
@@ -19,6 +20,10 @@
 @media screen and (min-width:$lBreakpoint) {
     #contact{
         @include marginL;
+    }
+    .contact-container{
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 // Large desktop
