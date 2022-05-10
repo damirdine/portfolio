@@ -1,0 +1,27 @@
+#stack{
+    @include marginM; 
+    .stack_container{
+        display: flex;
+        justify-content: stretch;
+        margin: 15px;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    hr{
+        border: 2px solid black;
+        width: 50%;
+        margin: 25px 35px;
+    }
+}
+
+@media screen and (min-width:$lBreakpoint) {
+    #stack{
+        @include marginL;
+    }
+}
+@media screen and (min-width:$xlBreakpoint) {
+    #stack{
+        @include marginXL;
+    }
+}
+
