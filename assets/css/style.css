@@ -208,7 +208,7 @@ details hr {
   margin: 15px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 25px;
+  gap: 20px;
 }
 #stack hr {
   border: 1px solid black;
